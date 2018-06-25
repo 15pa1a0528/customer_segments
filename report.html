@@ -20342,12 +20342,14 @@ Once you have performed this implementation, the dataset will be stored in the v
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:.65th row is present in both fresh and frozen features.
+<p>**Answer:</p>
+<p>65th row is present in both fresh and frozen features.
   75th row is present in both Grocery and Detergent_paper features.
   66th row and 128th row is present in both fresh and Delicatessen features.
   154th row is present in both milk and Delicatessen features.
    =&gt; in this data set there is nearly 30 to 50 outliers and if we remove those data points then it will leads to lost some important information.
-   =&gt;here only 5 rows are added to the outlers list above which are present in at least one feature to reduce the potential of skewing of our ressult.</strong></p>
+   =&gt;here only 5 rows are added to the outlers list above which are present in at least one feature to reduce the potential of skewing of our ressult.</p>
+<p>as i said in this the data points which are we initialize as the outliers list 55,57,79,126,145 are show in the outliers based ont the features more than 1.so i want to remove these data points (outliers) from the data set, because as i decalre abovve the presence of the outliers may leads to the skewed results which are considered as data points. so it is better to remove the outliers.**</p>
 
 </div>
 </div>
@@ -23329,7 +23331,9 @@ Sample point 2 predicted to be in Cluster 2
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:when the whole sale distributor uses the supervised algorithms like decision tress,svm,knn other then the algorithm takes the input as hoe much amount spent and output be in which cluster can fall.if we add 10 more records of the customers to out data then we can easily predict the data as in which cluster they fall.in supervised we train the data against the output and then predict the output feom the training set to a particular value. </strong></p>
+<p>**Answer:
+in this we already have the labels even though they are predicted for the oroginal customers, by the supervised learning models like naive bayes,logistic,svm or decision trees can used to predicte in the supervised.in this model we train the data based on the new customers by their features . and the terget variable will be the index of the cluster group as shown in question 9 are may be 0 or 1.and we can also go through the knn model, in thos we evaluate distance between the each cluster and then pick the closest one and finally predict that customer and give the predicted result.</p>
+<p>when the whole sale distributor uses the supervised algorithms like decision tress,svm,knn other then the algorithm takes the input as ho much amount spent and output be in which cluster can fall.if we add 10 more records of the customers to out data then we can easily predict the data as in which cluster they fall.in supervised we train the data against the output and then predict the output feom the training set to a particular value. **</p>
 
 </div>
 </div>
